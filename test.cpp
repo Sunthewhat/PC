@@ -5,7 +5,6 @@ int main()
     int i,m,n,a[110][110],j,b;
     scanf("%d",&m);
     scanf("%d",&n);
-
     for(i=0;i<m;i++){
         for(j=0;j<n;j++){
             scanf("%d",&a[i][j]);

@@ -1,15 +1,28 @@
-#include<bits/stdc++.h>
-using namespace std;
-main() {
-    ios::sync_with_stdio(0);cin.tie(0);
-    
-    for (int i=0;i<3;i++) {
-        for (int j=0;j<3;j++) {
-            printf("* ");
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int i,m,n,a[110][110],j,b;
+    scanf("%d",&m);
+    scanf("%d",&n);
+
+    for(i=0;i<m;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",&a[i][j]);
         }
-        printf("\n");
     }
-    int a,b;
-    cin>>a>>b;
+
+    for(i=0;i<m;i++){
+        for(j=0;j<n;j++){
+            scanf("%d",&b);
+            a[i][j]+=b;
+        }
+    }
+
+    for(i=0;i<m;i++){
+        for(j=0;j<n;j++){
+          printf("%d ", a[i][j]);
+        }printf("\n");
+    }
     return 0;
 }

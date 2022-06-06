@@ -1,4 +1,4 @@
-console.log("Hello world");
+console.log("Hello world")
 //in-line comment
 /*
 multi line comment
@@ -8,13 +8,37 @@ multi line comment
 undefined, null, booleen, string, symbol, number, object
 */
 
-var myname = "ARRGGGHHH";
-myname = 1;
+var myname = "ARRGGGHHH"
+myname = 1
 
-let ourname = "GGGG";
+let ourname = "GGGG"
 
-const pi = 3.14;
+const pi = 3.14
 
 
-var a;
-var b=2;
+var a
+console.log(a)
+var b=2
+a=b
+console.log(a)
+
+var st="I am a"
+st+=" string"
+console.log(st)
+
+var ten =10+10
+console.log(ten)
+
+var myStr=`"I am a \""`
+console.log(myStr)
+/**********
+\' single quote
+\" double quote
+\\ backslash
+\n newline
+\r carriage return
+\t tab
+\b backspace
+\f form feed
+*********/
+console.log(`Kuy\ndfkjshdfgkhjsdf\nsdiufghsiudgfsiudg`)

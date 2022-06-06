@@ -48,3 +48,8 @@ var NameLen=Name.length
 console.log(NameLen)
 console.log(Name[1])
 console.log(Name[Name.length-1])
+
+function poop(a) {
+    console.log(a)
+}
+poop(200)

@@ -42,3 +42,8 @@ console.log(myStr)
 \f form feed
 *********/
 console.log(`Kuy\ndfkjshdfgkhjsdf\nsdiufghsiudgfsiudg`)
+
+var Name =`Chotiwet`
+var NameLen=Name.length
+console.log(NameLen)
+console.log(Name[1])
